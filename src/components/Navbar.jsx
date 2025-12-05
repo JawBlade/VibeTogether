@@ -7,16 +7,16 @@ function Navbar(){
     <>  
         <div className='flex justify-between items-center outline text-white m-1 p-2'>
             <div>
-                <img src="/logo2.png" className="content-center w-16 h-16 rounded-full object-cover object-center" />
+                <img src="/logo2.png" className="hover:cursor-pointer content-center w-16 h-16 rounded-full object-cover object-center" />
             </div>
 
             <div className="flex items-center space-x-2 m-4">
 
-            <div className="rounded-full p-2 bg-[#1f1f1f] hover:bg-[#2a2a2a] transition duration-200 ease-in transform hover:scale-105">
+            <div className="hover:cursor-pointer rounded-full p-2 bg-[#1f1f1f] hover:bg-[#2a2a2a] transition duration-200 ease-in transform hover:scale-105">
                 <HiHome className="h-7 w-7 " />
             </div>
 
-            <div className="flex items-center rounded-full p-2 bg-[#1f1f1f] hover:bg-[#2a2a2a] transition-colors duration-200 ease-in hover:border border-white/10">
+            <div className="hover:cursor-text flex items-center rounded-full p-2 bg-[#1f1f1f] border border-transparent hover:bg-[#2a2a2a] hover:border-white/10 transition-colors duration-200 ease-in">
 
                 <GoSearch className="h-7 w-7 mr-2 text-gray-300 group-hover:text-white" />
 
@@ -29,7 +29,7 @@ function Navbar(){
 
             </div>
 
-            <div className="outline content-center rounded-full object-cover object-center mr-4">
+            <div className="hover:cursor-pointer content-center rounded-full object-cover object-center mr-4">
                 <CgProfile className="h-10 w-10" />
             </div>
         </div>
