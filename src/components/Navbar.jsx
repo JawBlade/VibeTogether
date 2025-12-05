@@ -12,12 +12,10 @@ function Navbar(){
 
             <div className="flex items-center space-x-2 m-4">
 
-            {/* Home Icon */}
             <div className="rounded-full p-2 bg-[#1f1f1f] hover:bg-[#2a2a2a] transition duration-200 ease-in transform hover:scale-105">
                 <HiHome className="h-7 w-7 " />
             </div>
 
-            {/* Search Bar */}
             <div className="flex items-center rounded-full p-2 bg-[#1f1f1f] hover:bg-[#2a2a2a] transition-colors duration-200 ease-in hover:border border-white/10">
 
                 <GoSearch className="h-7 w-7 mr-2 text-gray-300 group-hover:text-white" />
