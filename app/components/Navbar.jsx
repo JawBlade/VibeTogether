@@ -7,7 +7,7 @@ function Navbar(){
     <>  
         <div className='flex justify-between items-center text-white m-1 p-2'>
             <div>
-                <img src="/logo2.png" className="hover:cursor-pointer content-center w-16 h-16 rounded-full object-cover object-center" />
+                <a href="/"><img src="/logo2.png" className="hover:cursor-pointer content-center w-16 h-16 rounded-full object-cover object-center" /></a>
             </div>
 
             <div className="flex items-center space-x-2 m-4">
