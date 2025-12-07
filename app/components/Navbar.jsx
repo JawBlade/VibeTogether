@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 function Navbar(){ 
   return (
     <>  
-        <div className='flex justify-between items-center outline text-white m-1 p-2'>
+        <div className='flex justify-between items-center text-white m-1 p-2'>
             <div>
                 <img src="/logo2.png" className="hover:cursor-pointer content-center w-16 h-16 rounded-full object-cover object-center" />
             </div>
