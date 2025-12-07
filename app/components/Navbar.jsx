@@ -20,11 +20,14 @@ function Navbar(){
 
                 <GoSearch className="h-7 w-7 mr-2 text-gray-300 group-hover:text-white" />
 
-                <input
-                type="text"
-                placeholder="What do you want to play?"
-                className="bg-transparent text-white group-hover:text-white focus:outline-none w-64"
-                />
+                <form method="GET" action="https://www.google.com/search">
+                    <input
+                    type="text"
+                    name="q"
+                    placeholder="What do you want to play?"
+                    className="bg-transparent text-white group-hover:text-white focus:outline-none w-64"
+                    />
+                </form>
             </div>
 
             </div>
