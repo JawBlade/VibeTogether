@@ -4,7 +4,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Navbar />
       <a href="/dash">hello</a>
       <h1>Home</h1>
     </>
